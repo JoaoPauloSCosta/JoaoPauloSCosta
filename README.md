@@ -22,13 +22,13 @@ Today I build web applications with **PHP/Laravel** and **Vue.js/Nuxt.js**, with
 
 | Area | Technologies |
 | :--- | :--- |
-| **Back end** | ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) |
-| **Front end** | ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
-| **Integrations** | REST APIs · Webhooks · ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Pusher](https://img.shields.io/badge/Pusher-300D4F?style=flat-square&logo=pusher&logoColor=white) |
-| **Tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Back end** | `PHP` · `Laravel` · `Node.js` |
+| **Front end** | `JavaScript` · `TypeScript` · `Vue.js` · `Nuxt.js` · `React` |
+| **Databases** | `MySQL` · `MariaDB` · `PostgreSQL` · `Supabase` |
+| **Services** | `REST APIs` · `Webhooks` · `Stripe` · `Pusher` |
+| **Tooling** | `Git` · `Docker` · `Claude Code` |
 
-Also exploring: React and Next.js, and the OpenAI API.
+Also exploring: Next.js and the OpenAI API.
 
 ## Featured Projects
 
@@ -65,17 +65,18 @@ A web application that uses the OpenAI API to analyze a photo or a text descript
 - **Key features:** analysis from an image or a text description; breakdown of calories, protein, carbohydrates, fat and fiber.
 - **Stack:** Next.js (App Router), React 19, TypeScript, Tailwind CSS, OpenAI API.
 
-## Private / Proprietary Projects
+## Private & Proprietary Projects
 
 ### GLPI Chat & Automation
 
 **Private / Proprietary Project**
 
-A live chat and workflow automation solution integrated with GLPI, designed to improve IT service desk operations.
+A real-time communication and workflow automation solution integrated with GLPI, designed to improve IT service desk operations.
 
 - **Problem it solves:** gives users and technicians a direct channel inside GLPI, with organized queues and a ticket created automatically when a chat is taken.
-- **Key features:** chat queues organized by technician groups; first-come service order, so technicians take the next chat in line; protection against two technicians taking the same chat; transfers between technicians and queues; automatic ticket creation, with messages recorded as follow-ups and a solution on closing; audible alert for new messages; works in the standard and simplified (Self-Service) GLPI interfaces.
-- **Stack:** PHP, GLPI 10 plugin.
+- **Key features:** chat queues organized by technician groups; first-come service order, so technicians take the next chat in line; protection against two technicians taking the same chat; transfers between technicians and queues; audible alert for new messages; works in the standard and simplified (Self-Service) GLPI interfaces.
+- **Automation:** a ticket is created automatically when a chat is taken, with messages recorded as follow-ups and a solution on closing; chats are distributed to technicians through group queues.
+- **Stack:** PHP, JavaScript, GLPI 10 plugin.
 
 > *Source code is private due to proprietary project ownership.*
 
